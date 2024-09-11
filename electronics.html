@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektronik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="electronics.html">Elektronik</a></li>
+            <li><a href="fashion.html">Fashion</a></li>
+            <li><a href="beauty.html">Kecantikan</a></li>
+        </ul>
+    </nav>
+
+    <section id="electronics">
+        <h2>Elektronik</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="mo1.jpeg" alt="Elektronik 1">
+                <h3>Elektronik 1</h3>
+                <p>Price: $300</p>
+                <button onclick="addToCart('Elektronik 1', 300)">Tambah ke Keranjang</button>
+            </div>
+            <div class="product">
+                <img src="mo2.jpeg" alt="Elektronik 2">
+                <h3>Elektronik 2</h3>
+                <p>Price: $400</p>
+                <button onclick="addToCart('Elektronik 2', 400)">Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

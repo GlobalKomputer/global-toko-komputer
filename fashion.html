@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="electronics.html">Elektronik</a></li>
+            <li><a href="fashion.html">Fashion</a></li>
+            <li><a href="beauty.html">Kecantikan</a></li>
+        </ul>
+    </nav>
+
+    <section id="fashion">
+        <h2>Fashion</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="fashion1.jpeg" alt="Fashion 1">
+                <h3>Fashion 1</h3>
+                <p>Price: $50</p>
+                <button onclick="addToCart('Fashion 1', 50)">Tambah ke Keranjang</button>
+            </div>
+            <div class="product">
+                <img src="fashion2.jpeg" alt="Fashion 2">
+                <h3>Fashion 2</h3>
+                <p>Price: $70</p>
+                <button onclick="addToCart('Fashion 2', 70)">Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
